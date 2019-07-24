@@ -27,7 +27,7 @@ describe('index.js', function() {
     });
   });
 
-  describe('distanceTravelledInFeet()', function() {
+  describe('distanceTravelledInFeet(someNum1, someNum2)', function() {
     it('returns the distance travelled in feet', function() {
       expect(distanceTravelledInFeet(43, 48)).to.equal(1320);
     });
